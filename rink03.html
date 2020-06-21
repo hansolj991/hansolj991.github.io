@@ -89,6 +89,20 @@ footer{
 	height: 100px;
 	margin: 10px 0 10px 0;
 }
+#sub3 li{
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+}
+#sub3 img{
+	width: 275px;
+	height: 275px;
+	display: block;
+}
+#sub3 img:hover{
+	transform: scale(1.1);
+	transition: transform 1s;
+}
 #add{
 	float: left;
 	margin: 10px 0 0 10px;
@@ -107,10 +121,11 @@ footer{
 	margin-left: 0px;
 }
 #ttop img{
-	margin-left: 53px;
+	margin: 60px 10px 0 53px;
 }
-#tttop{
+#tttop img{
 	float: right;
+	margin: 40px 0 0 0;
 }
 #bor{
 	border-top: 2px solid #000000;
@@ -119,36 +134,9 @@ footer{
 #tta{
 	margin: 0 0 50px 0;
 }
-#ttt{
-	
-	margin: 0 0 0 150px;
-}
-#tttt{
-	padding-left: 30px;
-}
-#tttt img{
-	margin-left: 60px;
-}
-}
-#ttttt{
-	padding-left: 30px;
-}
-#ttttt li{
-	margin-left: 310px;
-}
-#ttttt img{
-	margin-left: 65px;
-}
-#li{
-	font-size: 20px;
-	color: #000051;
-	font-weight: bold;
-	list-style-type : circle;
-	margin: 30px 0 20px 0;
-}
 #asli li{
 	list-style-type: none;
-	padding:10px 0 0 0;
+	padding:10px 110px 0 5px;
 	margin-bottom: 15px;
 }
 #lii{
@@ -168,7 +156,7 @@ footer{
 	padding-bottom: 20px;
 }
 #te{
-	font-size: 17px;
+	font-size: 15px;
 	border-bottom: 1px solid #bbbbbb;
 }
 #pp{
@@ -181,6 +169,18 @@ footer{
 }
 #yo{
 	margin-left: 220px;
+}
+#bor02{
+	border-bottom: 1px solid #bbbbbb;
+	margin: 110px 0 30px 280px;
+}
+#mar{
+	margin:0 0 40px 280px;
+	border-bottom: 1px solid #bbbbbb;
+}
+#num img{
+	margin:0 0 60px 550px;
+	float: center;
 }
 #st li{
 	font-weight: bold;
@@ -204,7 +204,7 @@ footer{
 		<li><a href="rink04.html"> 건강정책</a></li>
 		<li><a href="rink01.html"> 정책정보</a></li>
 		<li><a href="rink02.html"> 연구개발</a></li>
-		<li><a href="rink03.html"> 알림.자료</a> </li>
+		<li><a href="rink03.html"> 알림.자료</a></li>
 		<li> 간행물.통계 </li>
 		<li> 민원.정보공개 </li>
 		<li> 기관소개 </li>
@@ -214,39 +214,31 @@ footer{
 <div class="clear"></div>
 <div>
 		<aside>
-			<p id="pp">정책정보
+			<p id="pp">알림ㆍ자료
 				<dl>
-					<dt class="qwer">감염병</dt>
+					<dt class="qwer">이달의건강소식</dt>
 					<ul>
-						<div class="qwert">
-							<li> 감염병위기대응- </li>
-							<li> 수인성식품매개감염병관리 </li>
-							<li> 호흡기감염병관리 </li>
-							<li> 인수공통감염병관리 </li>
-							<li> 결핵관리 </li>
-							<li> 후천성면역결핍증관리 </li>
-							<li> 의료감염관리 </li>
-							<li> 감염병실험분석 </li>
-							<li> 검역관리 </li>
-							<li> 감염병감시체계 </li>
-							<li> 감염병정보화사업 </li>
-							<li> 시도감염병관리지원단 </li>
-						</div>
 							<div id="asli">
 								<div id="te">
-									<li> 생물안전 </li>
+									<li> 보도자료 </li>
 								</div>
 								<div id="te">
-									<li> 만성질환 </li>
+									<li> 포토뉴스 </li>
 								</div>
 								<div id="te">
-									<li> 기후변화 </li>
+									<li> 홍보자료 </li>
 								</div>
 								<div id="te">
-									<li> 의료방사선안전관리 </li>
+									<li> 공지사항 </li>
 								</div>
 								<div id="te">
-									<li> 장기·조직·혈액관리 </li>
+									<li> 공고/공시 </li>
+								</div>
+								<div id="te">
+									<li> 채용공고 </li>
+								</div>
+								<div id="te">
+									<li> 법령ㆍ지침ㆍ서식 </li>
 								</div>
 							</div>
 					</ul>
@@ -256,69 +248,38 @@ footer{
 <div id= "tta">
 	<div>
 		<section id="sub1">
-			<p id="p">감염병위기대응</p>
+			<p id="p">이달의건강소식</p>
 			<div id="bor">
 			</div>
 		</section>
 		<div>
 			<div id="ttop">
-				<img src="./img/top.PNG" >
+				<img src="./img/al.PNG" >
 			</div>
 			<div id="tttop">
-				<img src="./img/82.PNG" >
+				<img src="./img/all.PNG" >
 			</div>
 		</div>
+		<div id=bor02></div>
 	</div>
 </div>	
+<section id=mar>
+	<ul id="sub3">
+		<li><img src="./img/img01.PNG"></li>
+		<li><img src="./img/img02.PNG"></li>
+		<li><img src="./img/img03.PNG"></li>
+		<li><img src="./img/img04.PNG"></li>
+		<li><img src="./img/img05.PNG"></li>
+		<li><img src="./img/img06.PNG"></li>
+		<li><img src="./img/img07.PNG"></li>
+		<li><img src="./img/img08.PNG"></li>
+		<li><img src="./img/img09.PNG"></li>
+	</ul>
+</section>
+<section id=num>
+	<img src="./img/numb.PNG">
+</section>
 
-<div>
-	<div >
-		<div id="tttt">
-			<img src="./img/box.PNG" >
-		</div>
-
-		<section id ="ttttt">
-		<div>
-			<ul>
-				<li id="li"> 설치·운영 현황</li>
-				<li id="li2">’15.9월 메르스 후속조치 국가방역체계 개편의 일환으로 감염병 위기 상황대응을 위하여 질병관리본부에 긴급상황실을 설치 운영</li>
-			</ul>
-			<ul>
-				<li id="li">설치근거</li>
-					<div id="lii">
-						<div>
-							<p id="pli"> - 「감염병의 예방 및 관리에 관한 
-							법률」제8조의5(긴급상황실)<br>
-						</div>	
-						<div>
-							<p> ① 질병관리본부장은 감염병 정보의 수집ㆍ전파, 상황관리, 감염병이 유입되거나 유행하는 긴급한 경우의 초동조치 및 지휘 등의 업무를 수행하기 위하여 상시 긴급상황실을 설치ㆍ운영하여야 한다</p>
-						</div>
-					</div>
-				</li>
-			</ul>
-			<div>
-				<div>
-					<ul>
-						<li id="li">긴급상황실 기능</li>
-					</ul>
-				</div>
-				<div>
-					<img src="./img/dan.PNG">
-				</div>
-				
-			</div>
-			
-		</div>
-			<ul>
-				<li id="li">신종감염병 긴급상황 보고 및 대응체계</li>
-			</ul>
-		<div id="yo">
-				<img src="./img/bot.PNG">
-		</div>
-			
-		</section>
-	</div>
-</div>
 
 <div class="clear"></div>
 <footer>
